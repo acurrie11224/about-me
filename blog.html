@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Blog</title>
+    </head>
+    
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css"><link rel="stylesheet" href="blog.css" type="text/css" />
+  
+    <body>
+      <a href="index.html">Home</a> 
+   <a href="about.html">Contacts</a> 
+<a href="photos.html">Photos</a>
+        <H1>My Daily Life <3.</H1>
+
+
+<div id="main" style="margin-left:25%"> 
+
+<header class="w3-container w3-blue-grey">
+  <span class="w3-opennav w3-xlarge" onclick="w3_open()" style="display:none">☰</span>
+  <h1>My Blog</h1>
+  <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTMb7DHHhN8HZmimgRox42xxxnWEDf6GjuNzGwdzdypnDJ3AD71">
+</header>
+
+<div class="w3-container">
+  <h6 class="w3-opacity">RECENT POSTS</h6>
+  <hr>
+  <h2>School Today.</h2>
+  <h5><i class="fa fa-clock-o"></i> Jan 7, 2016.</h5>
+  <p class="w3-small">Tags: <span class="w3-tag w3-small w3-red">School</span> <span class="w3-tag w3-small w3-blue"></span></p>
+  <p>Today in the morning I was so tired to go to school. Luckily I woke up on time. I was still a little late because I wasnt on the train I normally get on. But now I am in 3rd period and I'm tired and I cant wait till the day is over so I can go home.</p>
+  <br><br>
+      
+  <h6 class="w3-opacity">RECENT POSTS</h6>
+  <hr>
+  <h2>Officially Blogging</h2>
+  <h5><i class="fa fa-clock-o"></i> Jan 7, 2016.</h5>
+  <p class="w3-small">Tags: <span class="w3-tag w3-small w3-green">Blog</span></p>
+  <p>Today is the first day 
+I started blogging. I want the update about my life and what 
+  I am doing everyday. So make sure you look on here everyday. Bye <3. </p>
+  <hr>
+
+  <div class="w3-card-2 w3-container">
+    <h4>Leave a Comment:</h4>
+    <form class="w3-container">
+      <textarea class="w3-input" placeholder="Say something nice.." required></textarea>
+      <br>
+      <button type="submit" class="w3-btn w3-green">Submit</button>
+    </form>
+  </div>
+  <br>
+
+  <p><span class="w3-badge w3-black">1</span> Comment:</p><br>
+
+  <div class="w3-row">
+    <div class="w3-col s2 text-center">
+      
+    </div>
+    <div class="w3-col s10 w3-container">
+      <h4>Lola <span class="w3-opacity w3-medium">Jan 7, 2016.</span></h4>
+      <p>Keep up the GREAT work! I am cheering for you!! </p><br>
+    </div>
+  </div>
+</div>
+
+<footer class="w3-container w3-blue-grey">
+  <h5>Bye</h5>
+  
+</footer>
+
+</div> <!-- End main -->
+     
+<script>
+function w3_open() {
+  document.getElementById("main").style.marginLeft = "25%"
+  document.getElementsByClassName("w3-sidenav")[0].style.width ="25%";
+  document.getElementsByClassName("w3-sidenav")[0].style.display = "block";
+  document.getElementsByClassName("w3-opennav")[0].style.display = 'none';
+}
+function w3_close() {
+  document.getElementById("main").style.marginLeft = "0%";
+  document.getElementsByClassName("w3-sidenav")[0].style.display = "none";
+  document.getElementsByClassName("w3-opennav")[0].style.display = "inline-block";
+}
+</script>
+     
+</body>
+</html> 
